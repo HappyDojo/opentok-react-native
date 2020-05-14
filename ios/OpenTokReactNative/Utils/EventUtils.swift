@@ -70,7 +70,7 @@ class EventUtils {
         audioStatsEventData["audioPacketsLost"] = audioStats.audioPacketsLost;
         audioStatsEventData["audioBytesReceived"] = audioStats.audioBytesReceived;
         audioStatsEventData["audioPacketsReceived"] = audioStats.audioPacketsReceived;
-        videoStatsEventData["timestamp"] = audioStats.timestamp;
+        audioStatsEventData["timestamp"] = audioStats.timestamp;
         return audioStatsEventData;
     }
     
