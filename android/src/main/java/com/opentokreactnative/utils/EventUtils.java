@@ -99,6 +99,7 @@ public final class EventUtils {
         audioStats.putInt("audioPacketsLost", stats.audioPacketsLost);
         audioStats.putInt("audioBytesReceived", stats.audioBytesReceived);
         audioStats.putInt("audioPacketsReceived", stats.audioPacketsReceived);
+        audioStats.putInt("timestamp", stats.timestamp);
         return audioStats;
     }
 
@@ -108,6 +109,7 @@ public final class EventUtils {
         videoStats.putInt("videoPacketsLost", stats.videoPacketsLost);
         videoStats.putInt("videoBytesReceived", stats.videoBytesReceived);
         videoStats.putInt("videoPacketsReceived", stats.videoPacketsReceived);
+        videoStats.putInt("timestamp", stats.timestamp);
         return videoStats;
     }
 
